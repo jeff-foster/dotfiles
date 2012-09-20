@@ -30,6 +30,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-haml'
 Bundle 'mattn/zencoding-vim'
+Bundle 'cakebaker/scss-syntax.vim.git'
 
 " use Zencoding for other languages, not just .html files.
 let g:user_zen_settings = {
@@ -55,3 +56,7 @@ filetype plugin indent on     " required!
 " :BundleSearch(!) foo - search(or refresh cache first) for foo
 "
 " see :h vundle for more details or wiki for FAQ
+"
+
+" use .scss syntax highlighting in .vim/syntax/ directory
+au BufRead,BufNewFile *.scss set filetype=scss
