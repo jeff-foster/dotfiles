@@ -6,6 +6,12 @@ export PS1='[\u@mbp \w$(__git_ps1)]\$ '
 ## RVM
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+################
+
+### Colors
+export CLICOLOR=1
+
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 #################
 

@@ -1,3 +1,4 @@
+colorscheme desert
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
 set tabstop=4 " default tabstop

@@ -41,7 +41,7 @@
 [color "status"]
     added = yellow
     changed = green
-	untracked = cyan
+    untracked = cyan
 [core]
 	excludesfile = /Users/jfoster/.gitignore
 [user]
