@@ -1,19 +1,18 @@
-# from "creating a happy git environment"
+## Git autocomplete
 source /usr/local/git/contrib/completion/git-completion.bash
+
+## Prompt
 GIT_PS1_SHOWDIRTYSTATE=true
+## ( colors here: http://linuxgazette.net/issue65/padala.html )
 export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m$( __git_ps1)\033[0m ]\$ '
 
-## RVM
-
+## Ruby version manager
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-################
 
 ### Colors
 export CLICOLOR=1
-
+### set colors ( http://www.astrobetter.com/xterm-color/ )
 export LSCOLORS=GxFxCxDxBxegedabagaced
-
-#################
 
 ### Aliases
 alias c='clear'
