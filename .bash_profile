@@ -20,7 +20,7 @@ alias ls="ls -lah"
 
 #################
 
-## Finder
+## Macintosh Finder Stuff
 # show hidden files
 alias show='defaults write com.apple.finder AppleShowAllFiles TRUE
 growlnotify -m "Terminal" Hidden files now showing
@@ -39,7 +39,10 @@ killall Dock'
 alias spacerR='defaults write com.apple.dock persistent-others -array-add "{tile-data={}; tile-type="spacer-tile";}"
 killall Dock'
 
-#################
+#####################
+## WATCH STAR WARS ##
+alias starwars="telnet towel.blinkenlights.nl"
+#####################
 
 ### Load .bashrc
 if [ -f ~/.bashrc ]; then
