@@ -1,7 +1,7 @@
 # from "creating a happy git environment"
 source /usr/local/git/contrib/completion/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='[\033[0;32m \u\[\033[0m\] \w$(__git_ps1)]\$ '
+export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m$( __git_ps1)\033[0m ]\$ '
 
 ## RVM
 
