@@ -1,4 +1,3 @@
-colorscheme desert
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
 set tabstop=4 " default tabstop
@@ -10,7 +9,12 @@ set showcmd " display an incomplete command in the lower right corner of the vim
 set incsearch " search as you type
 set hlsearch " search highlight
 set foldmethod=manual " code folding
+
+" Colors
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Bundle starts here
 set nocompatible               " be iMproved
