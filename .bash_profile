@@ -12,7 +12,7 @@ export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m$( __git_ps1)\033[0m ]\$ '
 ### Colors
 export CLICOLOR=1
 ### set colors ( http://www.astrobetter.com/xterm-color/ )
-export LSCOLORS=GxFxCxDxBxegedabagaced
+export LSCOLORS=gxfxcxdxBxegedabagaced
 
 ### Aliases
 alias c='clear'
@@ -30,6 +30,9 @@ killall Finder'
 alias hide='defaults write com.apple.finder AppleShowAllFiles FALSE
 growlnotify -m "Terminal" Hidden files now hidden
 killall Finder'
+
+#growl in terminal
+growl() { echo -e $'\e]9;'${1}'\007' ; return ; }
 
 # create a spacer in the left section (Applications) of the Dock
 alias spacerL='defaults write com.apple.dock persistent-apps -array-add "{tile-data={}; tile-type="spacer-tile";}"
