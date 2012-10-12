@@ -9,6 +9,13 @@ export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m$( __git_ps1)\033[0m ]\$ '
 ## Ruby version manager
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+### ATG stuff
+export DYNAMO_HOME=/Users/jfoster/ATG/atg/home
+export ATG_HOME=/Users/jfoster/ATG/atg
+export JBOSS_HOME=/Users/jfoster/ATG/jboss
+export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.4
+M2=$M2_HOME/bin
+
 ### Colors
 export CLICOLOR=1
 ### set colors ( http://www.astrobetter.com/xterm-color/ )
@@ -16,7 +23,6 @@ export LSCOLORS=gxfxcxdxBxegedabagaced
 
 ### Aliases
 alias c='clear'
-alias ls="ls -lah"
 
 #################
 
