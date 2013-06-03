@@ -5,15 +5,12 @@ source /usr/local/git/contrib/completion/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 ## ( colors here: http://linuxgazette.net/issue65/padala.html )
 export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m$( __git_ps1)\033[0m ]\$ '
+export PATH=$PATH:/usr/local/bin
 
 ## Ruby version manager
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 ### ATG stuff
-export DYNAMO_HOME=/Users/jfoster/ATG/atg/home
-export ATG_HOME=/Users/jfoster/ATG/atg
-export JBOSS_HOME=/Users/jfoster/ATG/jboss
-export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.4
 M2=$M2_HOME/bin
 
 ### Colors
@@ -23,7 +20,7 @@ export LSCOLORS=gxfxcxdxBxegedabagaced
 
 ### Aliases
 alias c='clear'
-
+alias at="cd ~/Git/atg-backcountry-ca/"
 #################
 
 ## Macintosh Finder Stuff
