@@ -9,13 +9,13 @@ set showcmd " display an incomplete command in the lower right corner of the vim
 set incsearch " search as you type
 set hlsearch " search highlight
 set foldmethod=manual " code folding
-set relativenumber
+" set relativenumber
 
 " Colors
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme desert
 
 " Bundle starts here
 set nocompatible               " be iMproved
@@ -40,6 +40,6 @@ let g:user_zen_settings = {
 
 filetype plugin indent on     " required!
 
- use .scss syntax highlighting in .vim/syntax/ directory
+" use .scss syntax highlighting in .vim/syntax/ directory
 
 au BufRead,BufNewFile *.scss set filetype=scss
