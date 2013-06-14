@@ -6,13 +6,16 @@ GIT_PS1_SHOWDIRTYSTATE=true
 ## ( colors here: http://linuxgazette.net/issue65/padala.html )
 
 ## need to get this working!!
-export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m $(git branch)\033[0m ]\$ '
+export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m $( __git_ps1)\033[0m]\$ '
+source ~/.git-completion.bash
 export PATH=$PATH:/usr/local/bin
 
 ### Colors
 export CLICOLOR=1
 ### set colors ( http://www.astrobetter.com/xterm-color/ )
 export LSCOLORS=gxfxcxdxBxegedabagaced
+# Tell grep to highlight matches
+export GREP_OPTIONS='--color=auto'
 
 ### Aliases
 alias c='clear'

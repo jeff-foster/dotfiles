@@ -15,7 +15,7 @@ set foldmethod=manual " code folding
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
 syntax enable
 set background=dark
-colorscheme desert
+colorscheme solarized
 
 " Bundle starts here
 set nocompatible               " be iMproved
