@@ -50,3 +50,4 @@ alias starwars="telnet towel.blinkenlights.nl"
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
+source "`brew --prefix grc`/etc/grc.bashrc"
