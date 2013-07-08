@@ -5,9 +5,9 @@ source /usr/local/git/contrib/completion/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 ## ( colors here: http://linuxgazette.net/issue65/padala.html )
 
-## need to get this working!!
 export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m $( __git_ps1)\033[0m]\$ '
-source ~/.git-completion.bash
+## export PS1='[\033[0;32m \u\[\033[0m\] \w\033[0;34m \033[0m]\$ '
+
 export PATH=$PATH:/usr/local/bin
 
 ### Colors
