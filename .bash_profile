@@ -5,6 +5,8 @@ source /usr/local/git/contrib/completion/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\033[0;32m\u\[\033[0m\] \w\033[0;34m$(__git_ps1)\033[0m \$ '
 
+## Postgres stuff
+export PGHOST=localhost
 
 ### Colors
 export CLICOLOR=1
@@ -16,6 +18,7 @@ export GREP_OPTIONS='--color=auto'
 ### Aliases
 alias c='clear'
 alias ls='ls -lah'
+alias S='cd ~/Sites'
 #################
 
 ## Macintosh Finder Stuff
