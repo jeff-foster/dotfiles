@@ -48,13 +48,14 @@ killall Dock'
 alias starwars="telnet towel.blinkenlights.nl"
 #####################
 
-### Load .bashrc
-if [ -f ~/.bashrc ]; then
-    . ~/.bashrc
-fi
 source "`brew --prefix grc`/etc/grc.bashrc"
 export PATH=/usr/local/bin:/usr/local/Cellar/ruby/2.0.0-p247:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/Cellar/ruby/2.0.0-p247:$PATH
 
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+### Load .bashrc
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
