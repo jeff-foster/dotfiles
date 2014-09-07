@@ -19,6 +19,7 @@ export GREP_OPTIONS='--color=auto'
 alias c='clear'
 alias ls='ls -lah'
 alias S='cd ~/Sites'
+alias pa='git push; git push heroku master'
 #################
 
 ## Macintosh Finder Stuff

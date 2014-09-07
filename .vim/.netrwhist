@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/jefffoster/Downloads/solarized/vim-colors-solarized/colors'
-let g:netrw_dirhist_2='/Users/jefffoster/.vim'
-let g:netrw_dirhist_3='/Users/jefffoster/Sites/foster2com/.git'
-let g:netrw_dirhist_4='/Users/jefffoster/Sites/foster2com/app/assets/css-src'
-let g:netrw_dirhist_5='/Users/jefffoster/Desktop/themeforest-1846727-radius-responsive-wordpress-theme/radius copy'
-let g:netrw_dirhist_6='/Users/jefffoster/Sites/crux-4-4981693/assets'
-let g:netrw_dirhist_7='/Users/jefffoster/Documents/dotfiles'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/jefffoster/Sites/foster2com'
+let g:netrw_dirhist_2='/Users/jefffoster/Sites/foster2com/app/views/home'
+let g:netrw_dirhist_3='/Users/jefffoster/Sites/foster2com/app/views/layouts'
+let g:netrw_dirhist_4='/Users/jefffoster/Sites/foster2com/app/assets/.sass-cache'
