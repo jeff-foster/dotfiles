@@ -40,6 +40,7 @@ let g:user_zen_settings = {
 
 filetype plugin indent on     " required!
 
+execute pathogen#infect()
 " use .scss syntax highlighting in .vim/syntax/ directory
 
 au BufRead,BufNewFile *.scss set filetype=scss
