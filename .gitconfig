@@ -46,7 +46,7 @@
     changed = green
     untracked = cyan
 [core]
-	excludesfile = /Users/jfoster/.gitignore
+	excludesfile = /Users/jefffoster/.gitignore_global
 [user]
 	name = Jeff Foster
 	email = jeff@foster2.com

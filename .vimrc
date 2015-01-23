@@ -1,7 +1,7 @@
 " Pathogen
 filetype off " Pathogen needs to run before plugin indent on
+execute pathogen#infect() 
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
-call pathogen#infect()
 filetype plugin indent on
 
 syntax on
