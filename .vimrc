@@ -5,7 +5,7 @@ call pathogen#infect()
 filetype plugin indent on
 
 syntax on
-colorscheme solarized-black 
+colorscheme vividchalk 
 
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
