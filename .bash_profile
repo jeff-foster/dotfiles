@@ -56,6 +56,10 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+###################
+alias jscript='java org.mozilla.javascript.tools.shell.Main
+Rhino 1.7 release 1 2008 03 06'
+
 ### Load .bashrc
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
