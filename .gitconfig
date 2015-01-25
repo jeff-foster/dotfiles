@@ -50,3 +50,5 @@
 [user]
 	name = Jeff Foster
 	email = jeff@foster2.com
+[merge]
+	tool = opendiff
