@@ -47,6 +47,8 @@
     untracked = cyan
 [core]
 	excludesfile = /Users/jefffoster/.gitignore_global
+    #fixes carriage returns from windows machines
+	autocrlf = input
 [user]
 	name = Jeff Foster
 	email = jeff@foster2.com

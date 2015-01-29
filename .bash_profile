@@ -20,7 +20,7 @@ alias c='clear'
 alias ls='ls -lah'
 alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
-alias do='cd ~/Documents/dotfiles'
+alias dot='cd ~/Documents/dotfiles'
 #################
 
 ## Macintosh Finder Stuff
