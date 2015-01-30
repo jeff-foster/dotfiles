@@ -1,6 +1,5 @@
-" Pathogen
+execute pathogen#infect()
 filetype off " Pathogen needs to run before plugin indent on
-execute pathogen#infect() 
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
 
@@ -20,6 +19,7 @@ set hlsearch " search highlight
 set foldmethod=manual " code folding
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
 set background=dark
+set backspace=indent,eol,start 
 " set relativenumber
 
 " use .scss syntax highlighting in .vim/syntax/ directory
