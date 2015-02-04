@@ -1,5 +1,7 @@
 ## Git autocomplete
-source /usr/local/git/contrib/completion/git-prompt.sh
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+            . `brew --prefix`/etc/bash_completion
+fi
 
 ## Prompt
 GIT_PS1_SHOWDIRTYSTATE=true
