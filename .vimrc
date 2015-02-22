@@ -1,14 +1,16 @@
-execute pathogen#infect()
+call pathogen#infect()
 filetype off " Pathogen needs to run before plugin indent on
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
+syntax enable
 
-syntax on
 colorscheme vividchalk 
 
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
 set tabstop=4 " default tabstop
+set shiftwidth=4
+set softtabstop=4
 set noerrorbells " no noise
 set novisualbell " no blinking
 set laststatus=2 " always show status line

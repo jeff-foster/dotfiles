@@ -1,9 +1,5 @@
-## Git autocomplete
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-            . `brew --prefix`/etc/bash_completion
-fi
-
 ## Prompt
+source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\033[0;32m\u\[\033[0m\] \w\033[0;34m$(__git_ps1)\033[0m \$ '
 
@@ -23,6 +19,7 @@ alias ls='ls -lah'
 alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
 alias dot='cd ~/Documents/dotfiles'
+alias repos='cd ~/Documents/Git\ Repos'
 #################
 
 ## Macintosh Finder Stuff
