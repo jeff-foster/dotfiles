@@ -4,7 +4,7 @@ call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
 syntax enable
 
-colorscheme vividchalk 
+colorscheme heroku-terminal
 
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
