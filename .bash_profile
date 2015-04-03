@@ -60,6 +60,9 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 alias jscript='java org.mozilla.javascript.tools.shell.Main
 Rhino 1.7 release 1 2008 03 06'
 
+#teamocil autocomplete
+complete -W "$(teamocil --list)" teamocil
+
 ### Load .bashrc
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
