@@ -20,6 +20,7 @@ alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
 alias dot='cd ~/Documents/dotfiles'
 alias repos='cd ~/Documents/Git\ Repos'
+alias repos='cd ~/Documents/estimize'
 #################
 
 ## Macintosh Finder Stuff
@@ -51,10 +52,11 @@ alias starwars="telnet towel.blinkenlights.nl"
 
 source "`brew --prefix grc`/etc/grc.bashrc"
 
-export PATH=/usr/local/bin:/usr/local/heroku/bin:/usr/local/Cellar/ruby/2.0.0-p247:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Bundler binstubs
+#
+export PATH=./bin:$PATH
 
 ###################
 alias jscript='java org.mozilla.javascript.tools.shell.Main
@@ -67,3 +69,5 @@ complete -W "$(teamocil --list)" teamocil
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
