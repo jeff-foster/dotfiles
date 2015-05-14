@@ -20,7 +20,7 @@ alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
 alias dot='cd ~/Documents/dotfiles'
 alias repos='cd ~/Documents/Git\ Repos'
-alias repos='cd ~/Documents/estimize'
+alias est='cd ~/Documents/estimize'
 #################
 
 ## Macintosh Finder Stuff
