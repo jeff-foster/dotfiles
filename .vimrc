@@ -8,9 +8,9 @@ colorscheme vividchalk
 
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
-set tabstop=4 " default tabstop
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2 " default tabstop
+set shiftwidth=2
+set softtabstop=2
 set noerrorbells " no noise
 set novisualbell " no blinking
 set laststatus=2 " always show status line
@@ -26,18 +26,13 @@ set backspace=indent,eol,start
 
 " use .scss syntax highlighting in .vim/syntax/ directory
 au BufRead,BufNewFile *.scss set filetype=scss
+
 "syntastic stuff https://github.com/scrooloose/syntastic#installpathogen
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 "let g:syntastic_javascript_checkers = ['jscs']
-
-"nerdtree
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-

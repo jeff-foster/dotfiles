@@ -3,6 +3,11 @@ source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\033[0;32m\u\[\033[0m\] \w\033[0;34m$(__git_ps1)\033[0m \$ '
 
+## git completion
+if [ -f ~/.git-completion.bash ]; then
+      . ~/.git-completion.bash
+fi
+
 ## Postgres stuff
 export PGHOST=localhost
 
