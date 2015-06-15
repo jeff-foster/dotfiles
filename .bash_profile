@@ -26,6 +26,7 @@ alias pa='git push; git push heroku master'
 alias dot='cd ~/Documents/dotfiles'
 alias repos='cd ~/Documents/Git\ Repos'
 alias est='cd ~/Documents/estimize'
+alias tme='tmux attach -t estimize'
 #################
 
 ## Macintosh Finder Stuff

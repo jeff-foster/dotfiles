@@ -49,6 +49,7 @@
 	excludesfile = /Users/jefffoster/.gitignore_global
     #fixes carriage returns from windows machines
 	autocrlf = input
+	editor = vim
 [user]
 	name = Jeff Foster
 	email = jobs@foster2.com
