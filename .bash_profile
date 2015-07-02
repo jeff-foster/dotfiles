@@ -23,7 +23,7 @@ alias c='clear'
 alias ls='ls -lah'
 alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
-alias dot='cd ~/Documents/dotfiles'
+alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/Git\ Repos'
 alias est='cd ~/Documents/estimize'
 alias tme='tmux attach -t estimize'
@@ -68,12 +68,7 @@ export PATH=./bin:$PATH
 alias jscript='java org.mozilla.javascript.tools.shell.Main
 Rhino 1.7 release 1 2008 03 06'
 
-#teamocil autocomplete
-complete -W "$(teamocil --list)" teamocil
-
 ### Load .bashrc
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
