@@ -71,3 +71,4 @@ Rhino 1.7 release 1 2008 03 06'
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
