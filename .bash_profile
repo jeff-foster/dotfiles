@@ -22,6 +22,7 @@ alias c='clear'
 alias ls='ls -lah'
 alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
+alias p='python3'
 alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/Git\ Repos'
 alias est='cd ~/Documents/estimize'
@@ -72,3 +73,10 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
