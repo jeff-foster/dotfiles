@@ -24,7 +24,7 @@ alias S='cd ~/Sites'
 alias pa='git push; git push heroku master'
 alias p='python3'
 alias dot='cd ~/Documents/repos/dotfiles'
-alias repos='cd ~/Documents/Git\ Repos'
+alias repos='cd ~/Documents/repos'
 alias est='cd ~/Documents/estimize'
 alias tme='tmux attach -t estimize'
 #################
