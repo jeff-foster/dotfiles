@@ -21,12 +21,11 @@ export GREP_OPTIONS='--color=auto'
 alias c='clear'
 alias ls='ls -lah'
 alias S='cd ~/Sites'
-alias pa='git push; git push heroku master'
 alias p='python3'
+alias pa='git push; git push heroku master'
+alias push='git push'
 alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/repos'
-alias est='cd ~/Documents/estimize'
-alias tme='tmux attach -t estimize'
 #################
 
 ## Macintosh Finder Stuff
