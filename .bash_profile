@@ -23,7 +23,7 @@ alias ls='ls -lah'
 alias S='cd ~/Sites'
 alias p='python3'
 alias pa='git push; git push heroku master'
-alias push='git push'
+alias gp='git push'
 alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/repos'
 #################

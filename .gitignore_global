@@ -17,6 +17,7 @@
 *.swp
 .idea/
 *.iml
+*.netrwhist
 
 # OS generated files #
 ######################
