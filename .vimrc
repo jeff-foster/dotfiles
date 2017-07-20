@@ -23,3 +23,6 @@ set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
 set background=dark
 set backspace=indent,eol,start 
 " set relativenumber
+
+"show trailing whitespace as error
+match ErrorMsg '\s\+$'
