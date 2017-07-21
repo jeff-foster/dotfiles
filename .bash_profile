@@ -50,18 +50,7 @@ killall Dock'
 alias spacerR='defaults write com.apple.dock persistent-others -array-add "{tile-data={}; tile-type="spacer-tile";}"
 killall Dock'
 
-#####################
-## WATCH STAR WARS ##
-alias starwars="telnet towel.blinkenlights.nl"
-#####################
-
-source "`brew --prefix grc`/etc/grc.bashrc"
-
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
-
-# Bundler binstubs
-#
-export PATH=./bin:$PATH
 
 ###################
 alias jscript='java org.mozilla.javascript.tools.shell.Main
@@ -71,11 +60,5 @@ Rhino 1.7 release 1 2008 03 06'
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-
-# Setting PATH for Python 3.6
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
