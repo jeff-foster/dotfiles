@@ -50,8 +50,7 @@ killall Dock'
 alias spacerR='defaults write com.apple.dock persistent-others -array-add "{tile-data={}; tile-type="spacer-tile";}"
 killall Dock'
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ###################
 alias jscript='java org.mozilla.javascript.tools.shell.Main
 Rhino 1.7 release 1 2008 03 06'
