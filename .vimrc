@@ -26,3 +26,12 @@ set backspace=indent,eol,start
 
 "show trailing whitespace as error
 match ErrorMsg '\s\+$'
+
+"shortcut to toggle 'set list (hidden characters'
+nmap <leader>l :set list!<CR>
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬
+
+" denotes whether bufferline should automatically echo to the command bar
+let g:bufferline_echo = 0
