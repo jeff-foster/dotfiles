@@ -1,4 +1,4 @@
-call pathogen#infect()
+ call pathogen#infect()
 filetype off " Pathogen needs to run before plugin indent on
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
@@ -6,9 +6,10 @@ syntax enable
 
 colorscheme vividchalk
 
+set encoding=utf-8
 set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
-set tabstop=2 " default tabstop
+set tabstop=3 " default tabstop
 set shiftwidth=2
 set softtabstop=2
 set noerrorbells " no noise
@@ -35,3 +36,24 @@ set listchars=tab:▸\ ,eol:¬
 
 " denotes whether bufferline should automatically echo to the command bar
 let g:bufferline_echo = 0
+let g:bufferline_modified = ' + '
+let g:bufferline_solo_highlight = 0
+
+" airline/powerline/tmuxline
+" don't inherit tmuxline theme from vim airline
+" let g:airline#extensions#tmuxline#enabled = 0
+
+" preset is layout
+" let g:tmuxline_preset = 'nightly_fox'
+"
+" theme is colors/decoration 
+ let g:tmuxline_theme = 'powerline'
+ let g:tmuxline_preset = {
+    \'a'    : '#S',
+    \'b'    : '#W',
+    \'c'    : '',
+    \'win'  : '#I #W',
+    \'cwin' : '#I #W',
+    \'x'    : 'x',
+    \'y'    : 'y',
+    \'z'    : 'z'}

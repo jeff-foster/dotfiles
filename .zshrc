@@ -92,4 +92,6 @@ alias pa='git push; git push heroku master'
 alias gp='git push'
 alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/repos'
+alias vrc='vim ~/.vimrc'
+alias zrc='vim ~/.zshrc'
 #################
