@@ -1,4 +1,4 @@
- call pathogen#infect()
+call pathogen#infect()
 filetype off " Pathogen needs to run before plugin indent on
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
@@ -22,7 +22,7 @@ set hlsearch " search highlight
 set foldmethod=manual " code folding
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
 set background=dark
-set backspace=indent,eol,start 
+set backspace=indent,eol,start
 " set relativenumber
 
 "show trailing whitespace as error
@@ -46,14 +46,20 @@ let g:bufferline_solo_highlight = 0
 " preset is layout
 " let g:tmuxline_preset = 'nightly_fox'
 "
-" theme is colors/decoration 
- let g:tmuxline_theme = 'powerline'
- let g:tmuxline_preset = {
+" theme is colors/decoration
+let g:airline_theme='simple'
+let g:tmuxline_theme = 'simple'
+let g:tmuxline_preset = {
     \'a'    : '#S',
     \'b'    : '#W',
     \'c'    : '',
     \'win'  : '#I #W',
     \'cwin' : '#I #W',
-    \'x'    : 'x',
-    \'y'    : 'y',
-    \'z'    : 'z'}
+    \'x'    : '#{client_termname}',
+    \'y'    : '%k:%M',
+    \'z'    : '#h'}
+
+let g:airline#extensions#tabline#switch_buffers_and_tabs = 1
+
+" for vim jsx
+let g:jsx_ext_required = 0

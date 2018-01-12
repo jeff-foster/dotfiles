@@ -95,3 +95,5 @@ alias repos='cd ~/Documents/repos'
 alias vrc='vim ~/.vimrc'
 alias zrc='vim ~/.zshrc'
 #################
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

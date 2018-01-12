@@ -55,6 +55,9 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 alias jscript='java org.mozilla.javascript.tools.shell.Main
 Rhino 1.7 release 1 2008 03 06'
 
+# Android Studio
+export PATH=$PATH:/Users/jeff-foster-2/Library/Android/sdk/platform-tools/
+
 ### Load .bashrc
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
