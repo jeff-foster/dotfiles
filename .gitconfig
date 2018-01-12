@@ -46,7 +46,7 @@
     changed = green
     untracked = cyan
 [core]
-	excludesfile = /Users/jeff-foster-2/.gitignore_global
+	excludesfile = ./.gitignore_global
     #fixes carriage returns from windows machines
 	autocrlf = input
 	editor = vim
