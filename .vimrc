@@ -25,6 +25,9 @@ set background=dark
 set backspace=indent,eol,start
 " set relativenumber
 
+set swapfile
+set dir=~/tmp
+
 "show trailing whitespace as error
 match ErrorMsg '\s\+$'
 
