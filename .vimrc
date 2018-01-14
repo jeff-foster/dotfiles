@@ -25,6 +25,9 @@ set background=dark
 set backspace=indent,eol,start
 " set relativenumber
 
+"for vim-livedown
+nmap gm :LivedownToggle<CR>
+
 set swapfile
 set dir=~/.tmp
 
