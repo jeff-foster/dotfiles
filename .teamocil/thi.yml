@@ -1,0 +1,28 @@
+name: thi
+windows:
+  - name: code
+    focus: true
+    layout: even-horizontal
+    root: ~/Documents/repos/thi/traumahealing-web
+    panes:
+    - commands:
+        - cd src
+        - clear
+        - git status
+      focus: true
+    - yarn test
+
+  - name: webpack-server
+    root: ~/Documents/repos/thi/traumahealing-web
+    panes:
+    - yarn dev
+
+  - name: pgdb
+    root: ~/Documents/repos/thi/traumahealing-pgdb
+    panes:
+    - yarn teardown; yarn dev
+
+  - name: misc
+    root: ~/Documents/repos
+    panes:
+    - vim

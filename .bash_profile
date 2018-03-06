@@ -26,6 +26,9 @@ alias pa='git push; git push heroku master'
 alias gp='git push'
 alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/repos'
+alias t='npm t'
+alias tc='npm t -- --coverage'
+alias tcw='npm t -- --coverage --watch'
 #################
 
 ## Macintosh Finder Stuff

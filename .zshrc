@@ -54,6 +54,7 @@ ZSH_THEME="hyperzsh"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+compctl -g '~/.teamocil/*(:t:r)' teamocil
 
 # User configuration
 
