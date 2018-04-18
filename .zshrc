@@ -95,6 +95,7 @@ alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/repos'
 alias vrc='vim ~/.vimrc'
 alias zrc='vim ~/.zshrc'
+alias tthi='teamocil thi'
 #################
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

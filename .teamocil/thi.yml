@@ -1,9 +1,9 @@
 name: thi
 windows:
-  - name: code
+  - name: vim
     focus: true
     layout: even-horizontal
-    root: ~/Documents/repos/thi/traumahealing-web
+    root: ~/Documents/repos/thi/thi-web-v2
     panes:
     - commands:
         - cd src
@@ -12,8 +12,13 @@ windows:
       focus: true
     - yarn test
 
-  - name: webpack-server
-    root: ~/Documents/repos/thi/traumahealing-web
+  - name: webpack
+    root: ~/Documents/repos/thi/thi-web-v2
+    panes:
+    - yarn dev
+
+  - name: api
+    root: ~/Documents/repos/thi/thi-api-v2
     panes:
     - yarn dev
 
