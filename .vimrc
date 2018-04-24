@@ -14,6 +14,7 @@ set shiftwidth=2
 set softtabstop=2
 set noerrorbells " no noise
 set novisualbell " no blinking
+set noshowmode "dont show current mode
 set laststatus=2 " always show status line
 set vb t_vb= " disable any beeps or flashes on error
 set showcmd " display an incomplete command in the lower right corner of the vim window
@@ -39,6 +40,9 @@ nmap <leader>l :set list!<CR>
 
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
+
+"NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 " denotes whether bufferline should automatically echo to the command bar
 let g:bufferline_echo = 0
