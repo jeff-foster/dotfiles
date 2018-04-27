@@ -4,7 +4,7 @@ call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
 syntax enable
 
-colorscheme vividchalk
+colorscheme paper
 
 set encoding=utf-8
 set number " line numbers
