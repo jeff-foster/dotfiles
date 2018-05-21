@@ -4,10 +4,10 @@ call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on
 syntax enable
 
-colorscheme paper
+"colorscheme solarized-dark
 
 set encoding=utf-8
-set number " line numbers
+  set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
 set tabstop=3 " default tabstop
 set shiftwidth=2
