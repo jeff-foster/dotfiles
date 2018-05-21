@@ -29,6 +29,9 @@ set backspace=indent,eol,start
 "for vim-livedown
 nmap gm :LivedownToggle<CR>
 
+"for emmet-vim
+let g:user_emmet_mode='a'
+
 set swapfile
 set dir=~/.tmp
 
