@@ -88,8 +88,6 @@ compctl -g '~/.teamocil/*(:t:r)' teamocil
 ### Aliases
 alias c='clear'
 alias l='ls -lah'
-alias S='cd ~/Sites'
-alias pa='git push; git push heroku master'
 alias gp='git push'
 alias dot='cd ~/Documents/repos/dotfiles'
 alias repos='cd ~/Documents/repos'

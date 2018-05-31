@@ -50,6 +50,7 @@
     #fixes carriage returns from windows machines
 	autocrlf = input
 	editor = vim
+	ignorecase = false
 [user]
 	name = Jeff Foster
 	email = jeff@foster2.com
