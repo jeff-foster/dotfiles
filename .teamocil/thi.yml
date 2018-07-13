@@ -17,11 +17,6 @@ windows:
     panes:
     - yarn dev
 
-  - name: api
-    root: ~/Documents/repos/thi/thi-api-v2
-    panes:
-    - yarn dev
-
   - name: pgdb
     root: ~/Documents/repos/thi/traumahealing-pgdb
     panes:
