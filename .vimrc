@@ -7,7 +7,7 @@ syntax enable
 "colorscheme solarized-dark
 
 set encoding=utf-8
-  set number " line numbers
+set number " line numbers
 set expandtab " Make tabs into spaces set by tabstop
 set tabstop=3 " default tabstop
 set shiftwidth=2
@@ -26,23 +26,11 @@ set background=dark
 set backspace=indent,eol,start
 " set relativenumber
 
-"for vim-livedown
-nmap gm :LivedownToggle<CR>
-
 set swapfile
 set dir=~/.tmp
 
 "show trailing whitespace as error
 match ErrorMsg '\s\+$'
-
-"shortcut to toggle 'set list (hidden characters'
-nmap <leader>l :set list!<CR>
-
-" Use the same symbols as TextMate for tabstops and EOLs
-set listchars=tab:▸\ ,eol:¬
-
-"NERDTree
-map <C-n> :NERDTreeToggle<CR>
 
 " denotes whether bufferline should automatically echo to the command bar
 let g:bufferline_echo = 0
