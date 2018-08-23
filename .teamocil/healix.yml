@@ -1,9 +1,9 @@
-name: thi
+name: healix
 windows:
   - name: vim
     focus: true
     layout: even-horizontal
-    root: ~/Documents/repos/thi/thi-web-v2
+    root: ~/Documents/repos/healix/healix
     panes:
     - commands:
         - cd src
@@ -13,14 +13,9 @@ windows:
     - yarn test
 
   - name: webpack
-    root: ~/Documents/repos/thi/thi-web-v2
+    root: ~/Documents/repos/healix/healix
     panes:
     - yarn dev
-
-  - name: pgdb
-    root: ~/Documents/repos/thi/traumahealing-pgdb
-    panes:
-    - yarn teardown; yarn dev
 
   - name: misc
     root: ~/Documents/repos
