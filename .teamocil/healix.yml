@@ -3,7 +3,7 @@ windows:
   - name: vim
     focus: true
     layout: even-horizontal
-    root: ~/Documents/repos/thi/healix
+    root: ~/Documents/repos/thi/healix-app
     panes:
     - commands:
         - cd src
@@ -13,7 +13,7 @@ windows:
     - yarn test
 
   - name: webpack
-    root: ~/Documents/repos/thi/healix
+    root: ~/Documents/repos/thi/healix-app
     panes:
     - yarn dev
 
