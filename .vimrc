@@ -45,7 +45,7 @@ let g:bufferline_solo_highlight = 0
 " let g:tmuxline_preset = 'nightly_fox'
 "
 " theme is colors/decoration
-let g:airline_theme='simple'
+let g:airline_theme='wombat'
 let g:tmuxline_theme = 'simple'
 let g:tmuxline_preset = {
     \'a'    : '#S',
