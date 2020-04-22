@@ -24,7 +24,7 @@ set foldmethod=manual " code folding
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
 set background=dark
 set backspace=indent,eol,start
-" set relativenumber
+set relativenumber
 
 set swapfile
 set dir=~/.tmp
@@ -61,3 +61,6 @@ let g:airline#extensions#tabline#switch_buffers_and_tabs = 1
 
 " for vim jsx
 let g:jsx_ext_required = 0
+
+"nerdtree
+map <C-n> :NERDTreeToggle<CR>
