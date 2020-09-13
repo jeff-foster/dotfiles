@@ -54,7 +54,7 @@
 	ignorecase = false
 [user]
 	name = Jeff Foster
-	email = jeff@foster2.com
+	email = jobs@foster2.com
 [merge]
     #tool = opendiff
 [filter "media"]
