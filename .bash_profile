@@ -42,9 +42,6 @@ alias hide='defaults write com.apple.finder AppleShowAllFiles FALSE
 growlnotify -m "Terminal" Hidden files now hidden
 killall Finder'
 
-#growl in terminal
-growl() { echo -e $'\e]9;'${1}'\007' ; return ; }
-
 # create a spacer in the left section (Applications) of the Dock
 alias spacerL='defaults write com.apple.dock persistent-apps -array-add "{tile-data={}; tile-type="spacer-tile";}"
 killall Dock'
@@ -53,22 +50,12 @@ killall Dock'
 alias spacerR='defaults write com.apple.dock persistent-others -array-add "{tile-data={}; tile-type="spacer-tile";}"
 killall Dock'
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-###################
-alias jscript='java org.mozilla.javascript.tools.shell.Main
-Rhino 1.7 release 1 2008 03 06'
-
-# Android Studio
-export PATH=$PATH:/Users/jeff-foster-2/Library/Android/sdk/platform-tools/
-
 ### Load .bashrc
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-
-export PATH="$HOME/.cargo/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
