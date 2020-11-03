@@ -1,0 +1,23 @@
+name: healix
+windows:
+  - name: vim
+    focus: true
+    layout: even-horizontal
+    root: ~/Documents/repos/thi/healix-app
+    panes:
+    - commands:
+        - cd src
+        - clear
+        - git status
+      focus: true
+    - yarn test
+
+  - name: webpack
+    root: ~/Documents/repos/thi/healix-app
+    panes:
+    - yarn dev
+
+  - name: misc
+    root: ~/Documents/repos
+    panes:
+    - vim
