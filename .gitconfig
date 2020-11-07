@@ -54,7 +54,8 @@
 	ignorecase = false
 [user]
 	name = Jeff Foster
-	email = jobs@foster2.com
+	email = 430288+jeff-foster@users.noreply.github.com
+	signingkey = 188DA3DF996F9C56
 [merge]
     #tool = opendiff
 [filter "media"]
@@ -72,3 +73,7 @@
 	smudge = git-lfs smudge -- %f
 [credential]
 	helper = osxkeychain
+[commit]
+	gpgsign = true
+[github]
+	user = jeff-foster
