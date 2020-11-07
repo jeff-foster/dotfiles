@@ -55,6 +55,11 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
+### Load secret variables
+if [ -f ~/.bash_secrets ]; then
+    . ~/.bash_secrets
+fi
+
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
 export NVM_DIR="$HOME/.nvm"
